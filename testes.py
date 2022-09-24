@@ -1,2 +1,9 @@
-l = [1,2,3,4,5]
-print(*l)
+n = int(input())
+
+
+grafo = [[0 for column in range(n)] for row in range(n)]
+
+print(grafo)
+
+
+
