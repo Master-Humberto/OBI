@@ -43,7 +43,7 @@ trajeto = input().split()
 inicial = int(trajeto[0]) - 1
 final = int(trajeto[1]) - 1
 
-if 1 <= inicial and inicial <= n and 1 <= final and final <= n :
+if 1 <= (inicial+1) and (inicial+1) <= n and 1 <= (final+1) and (final +1)<= n :
     cond8 = True
 ## LINE BREAKER Construtor do problema
 if cond1 and cond2 and cond3 and cond4 and cond5 and cond6 and cond7 and cond8:
@@ -55,7 +55,7 @@ if cond1 and cond2 and cond3 and cond4 and cond5 and cond6 and cond7 and cond8:
     for i in range(0, n):
         for j in range(0,n):
             bingus.append(0)
-    
+
         grafao.append(bingus)
         bingus = []
 
@@ -199,10 +199,10 @@ if cond1 and cond2 and cond3 and cond4 and cond5 and cond6 and cond7 and cond8:
 
 
 
-# print("Distâncias")
-# print(distancias)
-# print("Preços")
-# print(lista_precos)
+    # print("Distâncias")
+    # print(distancias)
+    # print("Preços")
+    # print(lista_precos)
 
 
 
@@ -215,6 +215,6 @@ if cond1 and cond2 and cond3 and cond4 and cond5 and cond6 and cond7 and cond8:
 
 
 
- 
-    
+
+
         
